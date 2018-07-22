@@ -1,0 +1,7 @@
+// Get your credentials here: https://dev.twitter.com/apps
+
+module.exports = {
+  consumerKey: 'YOUR_CONSUMER_KEY',
+  consumerSecret: 'YOUR_CONSUMER_SECRET',
+  callbackUrl: 'YOUR_CALLBACK_URL'
+}
