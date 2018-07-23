@@ -32,12 +32,35 @@
 ## Versi/Perkembangan OAuth
 
 - OAuth versi 1.0 [RFC 5849](https://tools.ietf.org/html/rfc5849)
-  - Digunakan oleh Twitter
+  - Twitter
 - OAuth versi 2.0 (OAuth2) [RFC 6749](https://tools.ietf.org/html/rfc6749)
-  - Digunakan oleh:
-    - Google
-    - Facebook
-    - Microsoft
-    - SSO Kemenkeu
+  - Google
+  - Facebook
+  - Microsoft
+  - SSO Kemenkeu
 
 ---
+@title[Go To Code]
+# Let's get into the code!
+
+---
+@title[Daftar Demo]
+## Jenis alur authentikasi.
+- Server side with session
+- Single Page Application & Stateless API
+
+## OAuth Providers
+- Twitter (OAuth 1.0)
+- Google (OAuth 2.0)
+- Kemenkeu SSO (OAuth 2.0)
+
+---
+@title[Demo 1]
+#
+
+---
+@title[Alur OAuth 1.0]
+![Diagram Oauth 1.0](https://oauth.net/core/diagram.png)
+
+---
+
