@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= 'Kemenkeu.JS'
+    link(rel='stylesheet', href='/css/milligram.min.css')
+  body
+    .container
+      .row(style={'background-image': `url("${data.profile_banner_url}")`})
+        .column
+        .column.column-80(style={color: '#'+data.profile_text_color})
+          img(src=data.profile_image_url_https, style={'border-radius': '50%'})
+          h1(style={display: 'inline'})=data.screen_name
+          p=data.description
+        .column
